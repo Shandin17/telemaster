@@ -1,0 +1,21 @@
+{
+  "extends": ["plugin:prettier/recommended", "metarhia"],
+  "rules": {
+    "no-extra-parens": "off",
+    "max-len": [
+      "error",
+      {
+        "code": 100,
+        "ignoreUrls": true
+      }
+    ]
+  },
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  }
+}
